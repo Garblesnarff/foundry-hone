@@ -18,7 +18,7 @@ from typing import Optional
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse, StreamingResponse
+from fastapi.responses import FileResponse, HTMLResponse, StreamingResponse
 from PIL import Image, ImageEnhance, ImageFilter
 import uvicorn
 
@@ -434,6 +434,20 @@ async def history_delete(job_id: str):
                 filepath.unlink()
 
     return {"success": True, "deleted": job_id}
+
+
+# ============================================================================
+# Serve frontend
+# ============================================================================
+
+_frontend_dist = Path(__file__).resolve().parent.parent / "frontend" / "dist"
+if _frontend_dist.is_dir():
+    app.mount("/assets", StaticFiles(directory=str(_frontend_dist / "assets")), name="frontend-assets")
+
+    @app.get("/{path:path}")
+    async def _spa_fallback(path: str):
+        index = _frontend_dist / "index.html"
+        return HTMLResponse(index.read_text())
 
 
 # ============================================================================
