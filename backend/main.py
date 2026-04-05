@@ -174,7 +174,7 @@ async def read_upload(file: UploadFile) -> Image.Image:
 # Routes
 # ============================================================================
 
-@app.get("/health")
+@app.get("/api/health")
 async def health():
     """Health check endpoint."""
     return {
