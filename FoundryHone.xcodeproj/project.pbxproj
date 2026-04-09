@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1EB96B8EBD7D54FD8B964E /* BatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A9983DFCCA343817C06F4 /* BatchListView.swift */; };
+		46B96F68AB034F466FBF0BCB /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7132803799E90D425BD7 /* CompareView.swift */; };
+		7A9598DBB4EB50444FB2F876 /* FoundryHoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9CF9AC5ED39748C3687200 /* FoundryHoneApp.swift */; };
+		85DE973F2268D47606E25661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFE5908DFFC39C5D12F66FD /* ContentView.swift */; };
+		8CE8749EB5C48D40B25F84BE /* ControlsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727C34CC16C45F5C4B81DA6D /* ControlsPanel.swift */; };
+		A312DE90FC5A51B0D7628F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873F17933149CF7792A9E8BD /* Assets.xcassets */; };
+		C656DE05348D181AC6E8E229 /* EnhanceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4482D06CE5E361049835269 /* EnhanceEngine.swift */; };
+		DFA0E0C5A149AAD04C3BDA14 /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44F81FCA5D607A193E06C75 /* FaceDetector.swift */; };
+		E9209EFB7D84F92A7D063D38 /* DropZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40C8EC8EAF5931E5C810F2 /* DropZoneView.swift */; };
+		FD3FB7B878F01CA5209CBCB0 /* ImageDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4103620CA90D5B648B4C8E /* ImageDocument.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AFE5908DFFC39C5D12F66FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F4103620CA90D5B648B4C8E /* ImageDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDocument.swift; sourceTree = "<group>"; };
+		2186FE93A8D3AD4CD55EC942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2BADE572F50738024235E561 /* FoundryHone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoundryHone.entitlements; sourceTree = "<group>"; };
+		4B9CF9AC5ED39748C3687200 /* FoundryHoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundryHoneApp.swift; sourceTree = "<group>"; };
+		727C34CC16C45F5C4B81DA6D /* ControlsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsPanel.swift; sourceTree = "<group>"; };
+		873F17933149CF7792A9E8BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893C7132803799E90D425BD7 /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
+		8F40C8EC8EAF5931E5C810F2 /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
+		9BFD74F1174F8F95BCC21F78 /* FoundryHone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundryHone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1A9983DFCCA343817C06F4 /* BatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchListView.swift; sourceTree = "<group>"; };
+		C44F81FCA5D607A193E06C75 /* FaceDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetector.swift; sourceTree = "<group>"; };
+		E4482D06CE5E361049835269 /* EnhanceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhanceEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		36163FE597BCCA488C940610 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4482D06CE5E361049835269 /* EnhanceEngine.swift */,
+				C44F81FCA5D607A193E06C75 /* FaceDetector.swift */,
+				1F4103620CA90D5B648B4C8E /* ImageDocument.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		574B3207B4CE1334386DFF11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A9983DFCCA343817C06F4 /* BatchListView.swift */,
+				893C7132803799E90D425BD7 /* CompareView.swift */,
+				1AFE5908DFFC39C5D12F66FD /* ContentView.swift */,
+				727C34CC16C45F5C4B81DA6D /* ControlsPanel.swift */,
+				8F40C8EC8EAF5931E5C810F2 /* DropZoneView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8772B183E1DC4763DB7C779B = {
+			isa = PBXGroup;
+			children = (
+				F5A9EEFD0AF62505E553ABA7 /* Resources */,
+				8A34DAE1255DB10263655242 /* Sources */,
+				9CF0EC5411EB52061E801F2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A34DAE1255DB10263655242 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B9CF9AC5ED39748C3687200 /* FoundryHoneApp.swift */,
+				36163FE597BCCA488C940610 /* Models */,
+				574B3207B4CE1334386DFF11 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9CF0EC5411EB52061E801F2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD74F1174F8F95BCC21F78 /* FoundryHone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A9EEFD0AF62505E553ABA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				873F17933149CF7792A9E8BD /* Assets.xcassets */,
+				2BADE572F50738024235E561 /* FoundryHone.entitlements */,
+				2186FE93A8D3AD4CD55EC942 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE164C996CEAA6E66340F697 /* FoundryHone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF482C3E11768575B95112D /* Build configuration list for PBXNativeTarget "FoundryHone" */;
+			buildPhases = (
+				101C92CE4F5D1A8182891C40 /* Sources */,
+				8BA03BC162DF7E55F2DA7BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoundryHone;
+			packageProductDependencies = (
+			);
+			productName = FoundryHone;
+			productReference = 9BFD74F1174F8F95BCC21F78 /* FoundryHone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FDF595C4789B821C9E700C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FE164C996CEAA6E66340F697 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14BE458D5B76E634E9F0B15E /* Build configuration list for PBXProject "FoundryHone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8772B183E1DC4763DB7C779B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9CF0EC5411EB52061E801F2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE164C996CEAA6E66340F697 /* FoundryHone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BA03BC162DF7E55F2DA7BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A312DE90FC5A51B0D7628F95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101C92CE4F5D1A8182891C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1EB96B8EBD7D54FD8B964E /* BatchListView.swift in Sources */,
+				46B96F68AB034F466FBF0BCB /* CompareView.swift in Sources */,
+				85DE973F2268D47606E25661 /* ContentView.swift in Sources */,
+				8CE8749EB5C48D40B25F84BE /* ControlsPanel.swift in Sources */,
+				E9209EFB7D84F92A7D063D38 /* DropZoneView.swift in Sources */,
+				C656DE05348D181AC6E8E229 /* EnhanceEngine.swift in Sources */,
+				DFA0E0C5A149AAD04C3BDA14 /* FaceDetector.swift in Sources */,
+				7A9598DBB4EB50444FB2F876 /* FoundryHoneApp.swift in Sources */,
+				FD3FB7B878F01CA5209CBCB0 /* ImageDocument.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34ECCCFE9EB5C4F5707F9718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/FoundryHone.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.FoundryHone;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4134B93B645064139F0E6BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/FoundryHone.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foundry.FoundryHone;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7E85073C3F916FB8951906A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Foundry Hone";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		BBBB2BAE9FDEF5F1DD6B991F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Foundry Hone";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF482C3E11768575B95112D /* Build configuration list for PBXNativeTarget "FoundryHone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4134B93B645064139F0E6BE4 /* Debug */,
+				34ECCCFE9EB5C4F5707F9718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		14BE458D5B76E634E9F0B15E /* Build configuration list for PBXProject "FoundryHone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBB2BAE9FDEF5F1DD6B991F /* Debug */,
+				7E85073C3F916FB8951906A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FDF595C4789B821C9E700C0 /* Project object */;
+}
