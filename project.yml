@@ -1,6 +1,6 @@
 name: FoundryHone
 options:
-  bundleIdPrefix: com.foundry
+  bundleIdPrefix: com.hanson-foundry
   deploymentTarget:
     macOS: "13.0"
   xcodeVersion: "15.0"
